@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+   <div>
+        <h1>Emotion Detector</h1>
+    </div>  
+    <video id="video" width="720px" height="560px" autoplay muted></video>
+    <div>
+        <h3 style="color: white;" id="expression">{{best_fit_expression}}</h3>
+    </div>
+{% endblock content %}
+    
